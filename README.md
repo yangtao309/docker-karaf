@@ -1,7 +1,9 @@
 # Docker karaf
 
-##support:
-  OS: MAC OSX boot2docker 1.1.2 (64bit), Windows boot2docker 1.1.2 (64bit)
+##support
+  OS: 
+  * MAC OSX boot2docker 1.1.2 (64bit)
+  * Windows boot2docker 1.1.2 (64bit)
   
   need to replace $HOME/.boot2docker/boot2docker.iso 
   
