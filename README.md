@@ -30,7 +30,9 @@ ssh root@127.0.0.1 -p <port>
 sh karaf-bash.sh
 ```
 
-## Access Karaf web console
+## Access Karaf web console in firefox | chrome 
 
 http://ip-address:port/system/console
+
+(for example: http://192.168.12.153:49154/system/console)
 
