@@ -1,0 +1,15 @@
+
+#!/bin/bash
+
+KARAF_HOME=/home/runner/apache-karaf
+pid="$(ps -ef | grep org.apache.karaf.main.Main | grep -v grep | awk '{ print $2 }')"
+echo $pid
+
+kill -9 $pid
+
+rm -rf $KARAF_HOME/data/cache/*
+$KARAF_HOME/bin/start
+
+$KARAF_HOME/bin/client -v -r 20 -d 3 "features:install -v webconsole"
+
+
