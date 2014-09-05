@@ -81,7 +81,7 @@ WORKDIR /tmp
 RUN mkdir m2
 
 # expos many ports
-EXPOSE 22 8181 8101 1099 2181 9300 61616 5005
+EXPOSE 22 8181 8101 1099 2181 9300 61616 
 
 #CMD echo "starting Apache-Karaf container: " 
 CMD ["/usr/bin/supervisord"]
