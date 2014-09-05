@@ -1,19 +1,20 @@
+# Docker karaf
 
-
-1. git clone
+## Start Checkout code source
  
 ```
 git clone https://github.com/yangtao309/docker-karaf.git
 ```
 
-2. build 
+## Build Docker Dockerfile
 
 ```
 sh build.sh
 ```
 
-3. run
+## Run Docker Image
 
+### Background
 ```
 sh karaf.sh
 
@@ -23,11 +24,13 @@ docker port <container_id> <port>
 
 ssh root@127.0.0.1 -p <port>
 ```
-
-or run bash
+### Interactive /bin/bash
 
 ```
 sh karaf-bash.sh
 ```
 
+## Access Karaf web console
+
+http://ip-address:port/system/console
 
