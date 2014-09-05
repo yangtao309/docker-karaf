@@ -9,7 +9,7 @@
 
 need to replace $HOME/.boot2docker/boot2docker.iso 
   
-new iso dowload url: http://static.dockerfiles.io/boot2docker-v1.1.2-virtualbox-guest-additions-v4.3.12.iso
+new iso download url: http://static.dockerfiles.io/boot2docker-v1.1.2-virtualbox-guest-additions-v4.3.12.iso
  
  MAC OSX
  ```
