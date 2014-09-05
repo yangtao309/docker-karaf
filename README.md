@@ -3,7 +3,7 @@
 1. git clone
  
 ```
-git clone http://xxx@git.yunat.com/scm/di/karaf-app.git
+git clone https://github.com/yangtao309/docker-karaf.git
 ```
 
 2. build 

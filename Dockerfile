@@ -55,7 +55,7 @@ WORKDIR /home/runner/apache-karaf/etc
 RUN sed -i '/karaf.name=root/d' system.properties 
 
 # lets add a user - should ideally come from env vars?
-ADD datasource.dev.cfg /home/runner/apache-karaf/etc/datasource.dev.cfg
+ADD datasource.cfg /home/runner/apache-karaf/etc/datasource.cfg
 
 RUN echo >> users.properties 
 RUN echo admin=admin,admin >> users.properties 
