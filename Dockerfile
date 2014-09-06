@@ -46,8 +46,8 @@ RUN apt-get update
 RUN apt-get -y install wget
 RUN apt-get -y install unzip
 
-RUN wget -q http://repo2.maven.org/maven2/org/apache/karaf/apache-karaf/2.3.4/apache-karaf-2.3.4.tar.gz
-RUN tar xzvf apache-karaf-2.3.4.tar.gz; mv apache-karaf-2.3.4 apache-karaf; rm -f apache-karaf-2.3.4.tar.gz  
+RUN wget -q http://repo2.maven.org/maven2/org/apache/karaf/apache-karaf/3.0.1/apache-karaf-3.0.1.tar.gz
+RUN tar xzvf apache-karaf-3.0.1.tar.gz; mv apache-karaf-3.0.1 apache-karaf; rm -f apache-karaf-3.0.1.tar.gz  
 
 WORKDIR /home/runner/apache-karaf/etc
 
