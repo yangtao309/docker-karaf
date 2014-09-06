@@ -75,12 +75,6 @@ ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 ADD run /usr/local/bin/run
 RUN chmod +x /usr/local/bin/run
  
-
-# wget nexus tar.gz for package
-WORKDIR /tmp
-RUN mkdir m2
-ADD settings.xml /etc/maven/settings.xml
-
 # expos many ports
 EXPOSE 22 8181 8101 1099 2181 9300 61616 
 
