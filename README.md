@@ -6,6 +6,7 @@
   * Windows boot2docker 1.1.2 (64bit)
   * karaf 3.0.1
   
+boot2docke download url :  https://github.com/boot2docker/osx-installer/releases 
 
 need to replace $HOME/.boot2docker/boot2docker.iso 
   
@@ -63,4 +64,3 @@ sh karaf-bash.sh
 http://ip-address:port/system/console
 
 (for example: http://192.168.12.153:49154/system/console)
-
