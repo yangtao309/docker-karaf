@@ -1,7 +1,7 @@
 
 # Karaf Base Package build
 
-FROM ubuntu:13.10
+FROM ubuntu:14.04
 
 MAINTAINER YT "yangtao309@gmail.com"
 
@@ -76,7 +76,8 @@ ADD run /usr/local/bin/run
 RUN chmod +x /usr/local/bin/run
  
 # expos many ports
-EXPOSE 22 8181 8101 1099 2181 9300 61616 
+# EXPOSE 22 8181 8101 1099 2181 9300 61616 
+EXPOSE 8181 
 
 #CMD echo "starting Apache-Karaf container: " 
 CMD ["/usr/bin/supervisord"]
